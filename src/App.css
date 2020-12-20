@@ -1,0 +1,37 @@
+.product{
+  background: white;
+  box-shadow: 2px 2px #0000001f;
+  padding: 12px;
+  margin: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 700;
+  align-self: center;
+}
+
+.button {
+  font-size: 14px;
+  background: #2196f3;
+  color: white;
+  border-radius: 2px;
+  margin-right: 40px;
+  border: none;
+  padding: 10px 30px;
+  cursor: pointer;
+  outline: none;
+  font-weight: 900;
+}
+
+.place-order {
+  display: flex;
+    justify-content: flex-end;
+    padding-top: 24px;
+}
+
+.order-button {
+  background: #E91E63;
+}
